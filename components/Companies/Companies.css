@@ -1,0 +1,56 @@
+/* Companies.css */
+
+.container {
+  padding: 20px;
+}
+
+.head-line {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Style for the buttons */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

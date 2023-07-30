@@ -1,0 +1,101 @@
+/* Tickets.css */
+
+/* Center the tickets container */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* Main container */
+.tickets-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.tickets-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Ticket list */
+.ticket-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ticket-list li {
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Input fields for adding/updating tickets */
+.add-update-section {
+  margin-top: 20px;
+}
+
+.add-update-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.add-update-section .input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Buttons to perform CRUD operations */
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container .action-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-container .action-button:last-child {
+  background-color: #f44336;
+}
+
+/* Input field for fetching ticket by ID */
+.get-ticket-section {
+  margin-top: 20px;
+}
+
+.get-ticket-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.get-ticket-section .input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

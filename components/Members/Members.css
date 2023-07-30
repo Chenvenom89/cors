@@ -1,0 +1,57 @@
+/* MemberLogin.css */
+.member-login {
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .member-login h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(141, 149, 219);
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .greeting {
+    margin-top: 40px;
+  }
+  
+  .greeting h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .greeting p {
+    font-size: 18px;
+  }
+  
+  

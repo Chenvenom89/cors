@@ -1,0 +1,156 @@
+/* Home.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #007bff;
+}
+
+.header p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.search-flights {
+  margin: 20px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+}
+
+.search-flights h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff9100;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.search-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0084ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #b36b00;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.cta-buttons a {
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #0077ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.cta-buttons a:hover {
+  background-color: #4e00b3;
+}
+
+.member-login-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.admins-login-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.admins-login-button:hover {
+  background-color: #0056b3;
+}
+
+.member-login-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}

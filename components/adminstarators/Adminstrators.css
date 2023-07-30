@@ -1,0 +1,57 @@
+/* CSS for admins-table */
+.admins-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admins-table th,
+.admins-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admins-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.admins-table tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.admins-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.admins-table td:first-child {
+  font-weight: bold;
+}
+
+/* CSS for admins-item */
+.admins-item {
+  transition: background-color 0.3s ease;
+}
+
+.admins-item:hover {
+  background-color: #eef2f5;
+}
+
+/* CSS for pretty buttons */
+.linkStyle {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #007bff; /* Change this to your desired button color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.linkStyle:hover {
+  background-color: #0056b3; /* Change this to your desired hover color */
+}
